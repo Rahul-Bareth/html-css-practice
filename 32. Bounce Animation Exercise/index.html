@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Animation Using CSS</title>
+     <style>
+       .container {
+        height: 420px;
+        background-color: rgb(223, 233, 213);
+        position: relative;
+       }
+
+       .square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        height: 85px;
+        width: 85px;
+        background-color: rgb(19, 230, 146);
+        color: black;
+        border: 2px solid rgb(117, 9, 232);
+        position: absolute;
+        bottom: 16px;
+        left: 14px;
+        animation:
+        animateX 3s linear infinite,
+        animateY 1s ease-out infinite alternate,
+        modernSpin 2s linear infinite;
+
+       }
+
+       @keyframes animateX {
+         from {
+            left: 0%;
+         }
+
+         to {
+             left: 100%;
+         }
+       }
+
+       @keyframes animateY {
+         
+         from {
+           bottom: 0%;
+         }
+
+         to {
+          bottom: 80%;
+         }
+       }
+
+       @keyframes modernSpin {
+           0% {
+           rotate: 0deg;
+          }
+          100% {
+          rotate: 360deg;
+         }
+       }
+     </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="square">
+         SQUARE
+    </div>
+  </div>
+
+</body>
+</html>

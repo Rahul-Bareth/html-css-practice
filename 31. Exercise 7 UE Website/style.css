@@ -1,0 +1,192 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    
+
+      .logo img {
+        height:45px;
+
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: "Segoe UI";
+        height: 77px;
+        background: #d9edb5;
+      }
+
+      .right ul {
+        display: flex;
+        gap: 34px;
+      }
+
+      .right ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .right ul li span {
+        padding: 0 5px;
+      }
+
+      .right-end {
+        background-color: rgb(236, 190, 26);
+        padding: 6px 14px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .right-end:hover {
+        background-color:rgb(236, 190, 26);
+        color: white;
+        opacity: 0.8;
+      }
+
+      .last {
+        padding: 6px 12px;
+      }
+
+      .last:hover{
+        background-color: rgb(205, 205, 242);
+        border-radius: 20px;
+        cursor: pointer;
+        opacity: 0.8;
+      }
+
+      /* Middle- Section */
+
+      .first span{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        margin: 20px 0;
+        cursor: pointer;
+      }
+
+      .first img {
+        margin-left: 10px;
+        height: auto;
+        width: auto;
+        cursor: pointer;
+      }
+
+      .first p {
+        text-align:  center;
+        cursor: pointer;
+      }
+
+
+      .mac-btn {
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .button {
+        padding: 8px 20px;
+        background-color: rgb(73, 206, 204);
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        opacity: 0.8;
+      }
+
+
+     .second {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+     }
+
+     .download {
+      display:flex;
+      align-items: center;
+      justify-content: start;
+      margin: 20px 0 20px 40px;
+      cursor: pointer;
+     }
+
+     .download img {
+      height: 35px;
+      margin-right: 15px;
+     }
+
+     .download:hover {
+      text-decoration: underline;
+     }
+
+     /* Bottom Section */
+
+      .grid-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        gap: 20px;
+      }
+
+      .grid-item {
+        text-align: center;
+        height: 120px;
+        width: 250px;
+        background-color: rgb(244, 242, 220);
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .grid-item .btn a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .item-language {
+        padding-top: 20px;
+      }
+
+      
+      .btn {
+       margin-top: 40px;
+       padding: 6px 8px;
+       border-radius: 5px;
+       border: none;
+      }
+
+      .blue {
+        background-color: rgb(73, 206, 204);
+      }
+
+      .green {
+        background-color: rgb(65, 225, 92);
+      }
+
+     @media (max-width: 768px){
+        
+        .right {
+          display: none;
+        }
+
+        .first p {
+          width: 80vw;
+          margin: 0 auto;
+        }
+
+        .grid-container {
+          margin: 15px 0;
+          grid-template-columns: 1fr;
+          justify-items: center;
+        }
+     }
+
+

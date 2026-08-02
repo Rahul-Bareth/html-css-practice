@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title> 
+    <style>
+
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+
+     html {
+      font-size: 12px;
+     }
+
+      .box {
+        border: 2px solid black;
+        /*width: 1920px;*/
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        background: aquamarine;
+        text-align: center;
+      }
+
+      .container{
+        border: 2px solid black;
+        /*width: 1920px;*/
+        width: 80vw;
+        /*height: 80vh;*/
+        min-height: 80vh;
+        /*font-size: 18px;*/
+        margin: 25px auto;
+        background: aquamarine;
+      }
+
+      .container .div1 {
+        font-size: 1em;
+        /*font-size: 24px;*/
+        border: 2px solid green;
+        width: 50%;
+      }
+
+      .container div div {
+         border: 2px solid rgb(33, 42, 209);
+         width: 50%;
+      }      
+
+      .mycontainer {
+        border: 2px solid black;
+        box-sizing: border-box;
+        /*width: 100vmin */
+        width:  80vw;
+        margin: 25px auto;
+      }
+
+    </style>
+  </head>
+  <body>
+     <div class="box"> 
+      This is a box
+     </div>
+
+     <div class="container">
+      <div class="div1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
+        <div class="div2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis.</div>
+        </div>
+
+        
+
+          <!--lorem999-->
+     </div>
+
+     <div class="mycontainer">
+       I am another container
+     </div>
+  </body>
+</html>

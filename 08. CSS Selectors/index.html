@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+
+      /* Element Selectors */
+
+      div {
+        background-color: red;
+      }
+
+      /* Class Selector */
+      .red {
+        background-color: red;
+      }
+
+      /* ID Selector */
+  
+     #green {
+      background: green;
+     }    
+     
+     /* Child Selector */
+
+     div p {
+      color: blue;
+      background-color:  orange;
+     }
+
+     /* Descendant Selector */
+
+      div p {
+      color: rgb(26, 26, 222);
+      background-color:  orange;
+      }
+
+      /* Universal Selector */
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
+</head>
+<body>
+  <div class="red">
+    I am div
+  </div>
+
+  <div id="green">
+    i am div too
+    <p>I am para inside a div</p>
+  </div>
+
+</body>
+</html>

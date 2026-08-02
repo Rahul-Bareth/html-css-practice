@@ -1,0 +1,1 @@
+A basic example showcasing the priority of element, class, ID, and !important selectors in CSS.

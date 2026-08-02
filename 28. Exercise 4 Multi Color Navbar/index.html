@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your page description here" />
+    <title>Exercise 4 </title>
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+
+        :root {
+          --color: rgb(123, 215, 215);
+          --seccolor: rgb(61, 239, 61); 
+          --thirdcolor: rgb(236, 86, 86);
+          --gridcolor: rgb(247, 205, 205);
+        }
+
+        body {
+          /*background: teal;*/
+          background: var(--color);
+        }
+
+        nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90px;
+          width: 100%;
+          /*background: green;*/
+          background-color: var(--seccolor);
+          border: 2px solid white;
+        }
+
+        ul {
+          display: flex;
+          gap: 20px;
+          /*color: white;*/
+          color: var(--thirdcolor);
+        }
+
+        ul li {
+         list-style: none;
+        }
+
+        .grid-boxes {
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          gap: 20px;
+        }
+
+        .box {
+          margin: 20px auto;
+          text-align: center;
+          height: 220px;
+          width: 220px;
+          border: 2px solid white;
+          background: var(--gridcolor);
+        }
+  
+        @media (max-width: 768px){
+         .nav-links{
+            align-items: center;
+            gap: 10px;
+          }
+
+          .grid-boxes {
+            grid-template-columns: repeat(1, 1fr);
+          }
+        }
+
+      </style>
+</head>
+<body>
+  <nav>
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Skills</li>
+      <li>Projects</li>
+      <li>Experience</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <div class="grid-boxes">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+
+  </div>
+    
+</body>
+</html>

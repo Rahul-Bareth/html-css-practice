@@ -1,0 +1,45 @@
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+
+header {
+  background-color: #262727;
+  height: 100px; 
+}
+
+nav {
+   height: 100px;
+   width: 100%;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+ul li{
+  color: white;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+main  h2 {
+  height: 140px;
+  text-align: center;
+  background-color: rgb(100, 194, 194);
+  color: white;
+}
+
+
+footer {
+  height: 50px;
+  color: white;
+  text-align: center;
+  background-color: rgb(49, 47, 4)
+}

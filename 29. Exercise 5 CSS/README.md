@@ -1,0 +1,1 @@
+A simple HTML & CSS layout project by Rahul Bareth showcasing sticky navigation, fixed positioning, responsive containers, and clean semantic structure.

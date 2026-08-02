@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your page description here" />
+    <title>CSS Media Queries</title>
+    <style>
+      body {
+        background-color: rgb(228, 13, 13);
+      }
+
+      .boxes {
+        display: flex;
+      }
+
+      .box {
+        height: 144px;
+        width: 144px;
+        background-color: rgb(18, 233, 233);
+        margin: 3px;
+        padding: 4px;
+      }
+
+      @media only screen and (max-width: 455px) {
+        body {
+          background-color: rgb(13, 175, 13);
+        }
+
+        .boxes {
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>I am red body guy</div>
+
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
