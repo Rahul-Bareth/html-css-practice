@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Modern Form input</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      <form>
+        <lable>Name</lable> <br>
+        <input type="text" placeholder="Enter your name" name="uname">
+        <br>
+        <lable>Email</lable> <br>
+        <input type="Email" placeholder="Enter your email" name="uemail">
+        <br>
+        <lable>Phone</lable> <br>
+        <input pattern="[0-9]{10}" title="enter the valid phone number with 10 digit" type="tel" placeholder="Enter your number" name="uphone">
+ 
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <lable>Message</lable> <br>
+        <textarea></textarea>
+        <br>
+        <lable>Gender</lable> <br>
+        <input type="radio" value="Male" name="gender">Male
+        <input type="radio" value="Female" name="gender">Female
+        <br>
+        <lable>Course</lable> <br>
+        <input type="checkbox" value="html">HTML
+        <input type="checkbox" value="css">CSS
+        <input type="checkbox" value="javascript">Javascript
+        <input type="checkbox" value="react">React
+        <br>
+        <lable>Upload Photo</lable> <br>
+        <input type="file" pattern="[svg png jpg]">
+        <br>
+        <lable>Password</lable> <br>
+        <input type="password"> <br>
+
+        <lable>Country</lable> <br>
+        <select>
+          <option>---Select Country---</option>
+          <option value="india">India</option>
+          <option value="america">America</option>
+          <option value="japan">Japan</option>
+          <option value="australia">Australia</option>
+          <option value="london">London</option>
+        </select> <br>
+        <br>
+        <lable>Course</lable> <br>
+        <select>
+         <optgroup label="Frontend">
+         <option>HTML</option>
+         <option>CSS</option>
+         <option>JS</option>
+         </optgroup>
+         <optgroup label="Backend">
+          <option>PHP</option>
+          <option>Python</option>
+          <option>MongoDB</option>
+          <option>ExpressJs</option> <br>
+         </optgroup>
+        </select> <br>
+        <br>
+          <lable>Date</lable> <br>
+          <input type="date"> <br>
+      </form>
+    </body>
+</html>
