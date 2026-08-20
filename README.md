@@ -1,2 +1,3 @@
-## HTML-CSS-PRACTICE
-A growing collection of HTML and CSS exercises, mini-projects, and real-world UI implementations created during my front-end learning journey.
+# HTML-CSS-PRACTICE
+
+A collection of 40+ HTML & CSS mini projects and UI practice sets focused on building responsive layouts, navigation menus, cards, grids, Flexbox, CSS Grid, and interactive UI components.
